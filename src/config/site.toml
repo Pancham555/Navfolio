@@ -114,9 +114,8 @@ body = [
   "The name combines \"Navigation\" and \"Portfolio\".",
   "Navfolio prioritizes lightweight organization, seamless reading, and developer-friendly aesthetics.",
   "It’s less a resume than a personal OS for your ideas, projects, notes, and online presence.",
-  "这个名字融合了“导航”与“作品集”。",
-  "Navfolio 专注于轻量级组织、流畅的阅读体验，以及对开发者友好的美学设计。",
-  "它不像一份简历，更像是一个属于你自己的个人操作系统——承载想法、项目、笔记与网络足迹。",
+  "Navfolio focuses on lightweight organization, a smooth reading experience, and developer-friendly aesthetics.",
+  "It's not like a resume; it's more like your own personal operating system—a repository for ideas, projects, notes, and your online footprint.",
 ]
 image = "/images/logo-cat.png"
 
@@ -174,7 +173,7 @@ icon = "repo"
 
 [[config.home.connect]]
 label = "Email"
-href = "mailto:hello@navfolio.site"
+href = "mailto:panchamb63@gmail.com"
 icon = "mail"
 
 [[config.home.doing]]

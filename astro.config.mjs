@@ -4,6 +4,9 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 
+import react from '@astrojs/react';
+import keystatic from '@keystatic/astro';
+
 import tailwindcss from '@tailwindcss/vite';
 
 import expressiveCode from 'astro-expressive-code';
@@ -33,7 +36,7 @@ const resolvedBase =
 export default defineConfig({
   site: resolvedSite,
   base: resolvedBase,
-  integrations: [expressiveCode(), mdx(), sitemap()],
+  integrations: [react(), expressiveCode(), mdx(), sitemap(), keystatic()],
 
   vite: {
     plugins: [tailwindcss()],
