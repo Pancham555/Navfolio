@@ -6,6 +6,7 @@ import { defineConfig } from 'astro/config';
 
 import react from '@astrojs/react';
 import keystatic from '@keystatic/astro';
+import pagefind from 'astro-pagefind';
 
 import tailwindcss from '@tailwindcss/vite';
 
@@ -39,7 +40,7 @@ export default defineConfig({
   site: 'https://panchamfolio.vercel.app',
   // base: resolvedBase,
   output: 'static',
-  integrations: [react(), expressiveCode(), mdx(), sitemap(), keystatic()],
+  integrations: [react(), expressiveCode(), mdx(), sitemap(), keystatic(), pagefind()],
 
   vite: {
     plugins: [tailwindcss()],
