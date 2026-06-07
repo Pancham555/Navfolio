@@ -148,12 +148,14 @@ export default config({
           label: 'Description',
           description: 'Short summary shown in the blog archive and <meta description>.',
           multiline: true,
+          validation: { isRequired: true },
         }),
 
         date: fields.date({
           label: 'Publication Date',
           description: 'ISO 8601 datetime (e.g. 2026-06-06T06:37:19.447Z). Defaults to now.',
           defaultValue: { kind: 'today' },
+          validation: { isRequired: true },
           // defaultValue: `${new Date()}`,
         }),
 
@@ -232,6 +234,7 @@ export default config({
         description: fields.text({
           label: 'Description',
           multiline: true,
+          validation: { isRequired: true },
         }),
 
         date: fields.date({
@@ -295,6 +298,7 @@ export default config({
           label: 'Date',
           description: 'Creation datetime (ISO 8601).',
           defaultValue: { kind: 'today' },
+          validation: { isRequired: true },
           // defaultValue: `${new Date()}`,
         }),
 
@@ -302,6 +306,7 @@ export default config({
           label: 'Updated Date',
           description: 'Set automatically by bun scripts; update manually when editing.',
           defaultValue: { kind: 'today' },
+          validation: { isRequired: true },
           // defaultValue: `${new Date()}`,
         }),
 
