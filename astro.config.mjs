@@ -14,7 +14,7 @@ import expressiveCode from 'astro-expressive-code';
 import vercel from '@astrojs/vercel';
 
 // const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
-const customSite = process.env.SITE_URL;
+// const customSite = process.env.SITE_URL;
 // const customBase = process.env.SITE_BASE;
 // const repositoryOwner = process.env.GITHUB_REPOSITORY_OWNER;
 // const repositoryName = process.env.GITHUB_REPOSITORY?.split('/')[1];
@@ -36,7 +36,7 @@ const customSite = process.env.SITE_URL;
 
 // https://astro.build/config
 export default defineConfig({
-  site: customSite,
+  site: 'https://panchamfolio.vercel.app',
   // base: resolvedBase,
   output: 'static',
   integrations: [react(), expressiveCode(), mdx(), sitemap(), keystatic()],
