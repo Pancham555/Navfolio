@@ -20,7 +20,8 @@ const isDarkCodeTheme = ({ theme }) => theme.name === code.darkTheme;
 
 export default defineEcConfig({
   plugins: [pluginLineNumbers(), pluginCollapsibleSections()],
-  defaultLocale: 'zh-CN',
+  // defaultLocale: 'zh-CN',
+  defaultLocale: 'en',
   themes: [code.lightTheme, code.darkTheme],
   themeCssRoot: ':root',
   themeCssSelector: (theme) =>

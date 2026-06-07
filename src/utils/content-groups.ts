@@ -49,7 +49,12 @@ function getGroupItems(post: BlogPost, field: 'categories' | 'series') {
 }
 
 function sortByName(a: ContentGroup, b: ContentGroup) {
-  return a.name.localeCompare(b.name, 'zh-Hans-CN', { sensitivity: 'base' });
+  return a.name.localeCompare(
+    b.name,
+    //  'zh-Hans-CN'
+    'en',
+    { sensitivity: 'base' },
+  );
 }
 
 function sortBySeriesDateAsc(a: BlogPost, b: BlogPost) {

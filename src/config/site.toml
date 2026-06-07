@@ -48,7 +48,8 @@ emit_metadata = "0"
 input_position = "top"
 light_theme = "light"
 dark_theme = "dark"
-lang = "zh-CN"
+# lang = "zh-CN"
+lang = "en"
 loading = "lazy"
 
 [config.comments.utterances]
@@ -59,7 +60,8 @@ theme = "github-light"
 
 [config.comments.waline]
 server_url = ""
-lang = "zh-CN"
+# lang = "zh-CN"
+lang = "en"
 dark = "html.dark"
 pageview = true
 comment = true
