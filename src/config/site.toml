@@ -1,9 +1,9 @@
 [config.site]
-title = "navfolio"
+title = "Panchamfolio"
 description = "A personal navigation portfolio starter built with Astro."
-pageTitle = "navfolio | Digital Publication Space"
+pageTitle = "panchamfolio | Digital Publication Space"
 pageDescription = "A calm AI-native personal publication space for notes, links, and writing."
-repository = "https://github.com/dodolalorc/astro-navfolio"
+repository = "https://github.com/pancham555/navfolio"
 footerNote = "Released as an open-source starter."
 
 [config.vibe]
@@ -12,7 +12,7 @@ showTrail = true
 [config.theme]
 # Available palettes:
 # green-soft, green-vivid, rose-soft, pink-soft, purple-soft, blue-soft, orange-soft, brown-soft
-palette = "green-soft"
+palette = "green-vivid"
 
 [config.code]
 lightTheme = "catppuccin-latte"
@@ -67,16 +67,16 @@ pageview = true
 comment = true
 
 [config.profile]
-name = "navfolio"
-handle = "@navfolio"
-role = "A Cat Developer"
+name = "Pancham Barman"
+handle = "@pancham"
+role = "A Dragon Developer"
 company = "Independent Studio"
 location = "Remote"
-email = "hello@navfolio.site"
-website = "https://astro.navfolio.site/"
+email = "panchamb63@gmail.com"
+website = "https://panchamfolio.vercel.app/"
 github = "https://github.com/dodolalorc/astro-navfolio"
 meta = "Open-source maintainer"
-avatar = "/images/logo.png"
+avatar = "/images/dinosaur.png"
 
 [[config.topNav.links]]
 label = "Home"
@@ -110,8 +110,9 @@ text = [
 image = "/images/logo-with-name.png"
 
 [config.home.intro]
-title = "here is navfolio"
-name = "navfolio"
+title = "here is "
+# title = "here is navfolio"
+name = "panchamfolio"
 body = [
   "The name combines \"Navigation\" and \"Portfolio\".",
   "Navfolio prioritizes lightweight organization, seamless reading, and developer-friendly aesthetics.",
@@ -133,7 +134,7 @@ dateArchiveBaseHref = ""
 icon = "compass"
 title = "Portfolio"
 subtitle = "Selected work and case studies"
-href = "https://astro.navfolio.site/"
+href = "https://panchamfolio.vercel.app/"
 
 [[config.home.navigation]]
 icon = "pen"
@@ -145,22 +146,22 @@ href = "/blog"
 icon = "briefcase"
 title = "Resume"
 subtitle = "Career profile and experience"
-href = "https://github.com/dodolalorc/navfolio"
+href = "https://github.com/pancham555/navfolio"
 
 [[config.home.navigation]]
 icon = "github"
 title = "Open Source"
 subtitle = "Code, experiments, and tools"
-href = "https://github.com/dodolalorc/astro-navfolio"
+href = "https://github.com/pancham555/navfolio"
 
 [[config.home.connect]]
 label = "GitHub"
-href = "https://github.com/dodolalorc/astro-navfolio"
+href = "https://github.com/pancham555/navfolio"
 icon = "github"
 
 [[config.home.connect]]
 label = "Website"
-href = "https://astro.navfolio.site/"
+href = "https://panchamfolio.vercel.app/"
 icon = "compass"
 
 [[config.home.connect]]

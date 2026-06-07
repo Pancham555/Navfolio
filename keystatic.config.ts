@@ -113,7 +113,7 @@ export default config({
 
   ui: {
     brand: {
-      name: 'Navfolio',
+      name: 'Pancham folio',
     },
   },
 
