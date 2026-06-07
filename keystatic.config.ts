@@ -321,9 +321,10 @@ export default config({
           description: 'Semantic / visual type that the renderer uses to style the card.',
           options: [
             { label: 'Text', value: 'text' },
-            { label: 'Image', value: 'image' },
-            { label: 'Link', value: 'link' },
+            { label: 'Photo', value: 'photo' },
             { label: 'Quote', value: 'quote' },
+            { label: 'Code', value: 'code' },
+            { label: 'Mixed', value: 'mixed' },
           ],
           defaultValue: 'text',
         }),
