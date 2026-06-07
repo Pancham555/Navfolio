@@ -62,8 +62,8 @@ const figureImage = (label = 'Hero Image') =>
   fields.image({
     label,
     description: 'Stored in src/assets/figure/. Referenced as /src/assets/figure/<filename>.',
-    directory: 'public/images/figure',
-    publicPath: '/images/figure/',
+    directory: 'src/assets/figure/',
+    publicPath: 'src/assets/figure/',
   });
 
 // ─────────────────────────────────────────────────────────────────────────────
