@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "fonts:ui": "bun scripts/fonts/subset-ui-font.ts",
-    "build": "astro build && pagefind --site dist --output-subdir pagefind --root-selector main --exclude-selectors \"[data-pagefind-ignore]\"",
+    "build": "astro build && pagefind --site dist --output-subdir pagefind --root-selector main --exclude-selectors '[data-pagefind-ignore]'",
     "preview": "astro preview",
     "astro": "astro",
     "post:new": "bun scripts/new-content.ts blog",
