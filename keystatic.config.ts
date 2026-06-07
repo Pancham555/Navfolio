@@ -63,7 +63,7 @@ const figureImage = (label = 'Hero Image') =>
     label,
     description: 'Stored in src/assets/figure/. Referenced as /src/assets/figure/<filename>.',
     directory: 'src/assets/figure',
-    publicPath: '/src/assets/figure/',
+    publicPath: '/images/figure/',
   });
 
 // ─────────────────────────────────────────────────────────────────────────────
