@@ -236,6 +236,15 @@ const vibes = await Promise.all(
         content: '/';
       }
 
+      /* my new addition */
+      .vibe-meta > * + *::after,
+      .vibe-tags::after {
+        margin: 0 8px;
+        color: var(--paper-line-strong);
+        content: '/';
+      }
+      /* my new addition */
+
       .vibe-tags {
         display: inline-flex;
         flex-wrap: wrap;
