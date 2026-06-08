@@ -25,7 +25,7 @@ const CONTENT_TYPES = {
   vibe: {
     collectionName: 'vibe',
     directory: 'src/content/vibe',
-    defaultExtension: 'md',
+    defaultExtension: 'mdx',
     fileName: (slug, now) => `${formatDatePrefix(now)}-${slug}`,
     bodyTemplate: createVibeBody,
     frontmatterTemplate: createVibeFrontmatter,
@@ -54,7 +54,8 @@ if (!slug) {
 }
 
 const now = new Date();
-const isoDate = now.toISOString();
+// const isoDate = now.toISOString();
+const isoDate = now.toISOString().slice(0, 10);
 const config = CONTENT_TYPES[contentTypeArg];
 const extension: Extension = args.includes('--mdx') ? 'mdx' : config.defaultExtension;
 const title = createTitle(slug);

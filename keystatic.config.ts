@@ -61,9 +61,9 @@ import { config, collection, singleton, fields } from '@keystatic/core';
 const figureImage = (label = 'Hero Image') =>
   fields.image({
     label,
-    description: 'Stored in src/assets/figure/. Referenced as /src/assets/figure/<filename>.',
-    directory: 'src/assets/figure/',
-    publicPath: '/src/assets/figure/',
+    description: 'Stored in public/images/figure/. Accessible at /images/figure/<filename>.',
+    directory: 'public/images/figure',
+    publicPath: '/images/figure/',
   });
 
 // ─────────────────────────────────────────────────────────────────────────────
