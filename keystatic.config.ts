@@ -292,6 +292,13 @@ export default config({
               'Short label for this fragment. When creating in the UI, prepend the ' +
               'date to the Slug field (YYYY-MM-DD-<slug>) to match the naming convention.',
           },
+          slug: {
+            label: 'Slug',
+            generate: (title) =>
+              `${new Date().toISOString().slice(0, 10)}-${title
+                .toLowerCase()
+                .replace(/\s+/g, '-')}`,
+          },
         }),
 
         date: fields.date({
