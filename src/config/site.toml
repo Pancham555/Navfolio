@@ -1,8 +1,8 @@
 [config.site]
 title = "Panchamfolio"
-description = "A personal navigation portfolio starter built with Astro."
-pageTitle = "panchamfolio | Digital Publication Space"
-pageDescription = "A calm AI-native personal publication space for notes, links, and writing."
+description = "A personal corner of the internet by Pancham Barman — a developer sharing projects, blog posts, notes, and ideas. Built for lightweight organization, seamless reading, and developer-friendly exploration."
+pageTitle = "Panchamfolio | Pancham Barman — Developer, Writer & Builder"
+pageDescription = "Panchamfolio is Pancham Barman's personal digital space — a hub for projects, writing, notes, and open-source work. Navigate his world, explore his story, and discover everything in one place."
 repository = "https://github.com/pancham555/navfolio"
 footerNote = "Released as an open-source starter."
 
@@ -107,20 +107,21 @@ text = [
   "Showcase your story,",
   "and keep everything in one place.",
 ]
-image = "/images/logo-with-name.png"
+image = "/images/dinosaur.png"
 
 [config.home.intro]
 title = "here is "
 # title = "here is navfolio"
 name = "panchamfolio"
 body = [
-  "The name combines \"Navigation\" and \"Portfolio\".",
-  "Navfolio prioritizes lightweight organization, seamless reading, and developer-friendly aesthetics.",
-  "It’s less a resume than a personal OS for your ideas, projects, notes, and online presence.",
-  "Navfolio focuses on lightweight organization, a smooth reading experience, and developer-friendly aesthetics.",
-  "It's not like a resume; it's more like your own personal operating system—a repository for ideas, projects, notes, and your online footprint.",
+  "Pancham Barman's personal digital space — projects, blog posts, notes, and open-source experiments, all in one place.",
+  "Explore the work, writing, and ideas of Pancham Barman — a developer building things on the web and sharing the journey.",
+  "A lightweight personal OS for a developer's ideas, code, and writing. Built by Pancham Barman, a Dragon Developer.",
+  "Navigate Pancham Barman's world — browse projects, read blog posts, discover open-source tools, and follow his developer journey.",
+  "Developer. Writer. Builder. This is Pancham Barman's corner of the internet.",
+  "From notes to projects to blog posts — Panchamfolio is where Pancham Barman organizes his ideas and shares his story as a developer."
 ]
-image = "/images/logo-cat.png"
+image = "/images/dinosaur.png"
 
 [config.home.latest]
 count = 1
@@ -144,15 +145,9 @@ href = "/blog"
 
 [[config.home.navigation]]
 icon = "briefcase"
-title = "Resume"
+title = "CV"
 subtitle = "Career profile and experience"
-href = "https://github.com/pancham555/navfolio"
-
-[[config.home.navigation]]
-icon = "github"
-title = "Open Source"
-subtitle = "Code, experiments, and tools"
-href = "https://github.com/pancham555/navfolio"
+href = "https://drive.google.com/file/d/1qnYY-BqlGbtmJWMGqDe4P1e829eN_3SK/view?usp=sharing"
 
 [[config.home.connect]]
 label = "GitHub"
@@ -180,21 +175,21 @@ href = "mailto:panchamb63@gmail.com"
 icon = "mail"
 
 [[config.home.doing]]
-text = "Shipping a personal dashboard template"
+text = "Updated my CV to Latest Instance"
 mark = "01"
 
 [[config.home.doing]]
-text = "Writing reusable notes for future projects"
+text = "Made a new Portfolio site"
 mark = "02"
 
 [[config.home.doing]]
-text = "Improving static-site publishing workflow"
+text = "Preparing for MBA"
 mark = "03"
 
 [[config.home.doing]]
-text = "Collecting useful developer resources"
+text = "Upsklilling by learning different courses, in tech/business/finance"
 mark = "04"
 
 [[config.home.doing]]
-text = "Exploring small open-source ideas"
+text = "Exploring new research, project ideas, and internships"
 mark = "05"
