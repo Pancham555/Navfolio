@@ -201,7 +201,7 @@ export default config({
           options: {
             image: {
               directory: 'src/assets/figure',
-              publicPath: '../../assets/figure/',
+              publicPath: '@assets/figure/',
             },
           },
           // Add your custom MDX component allowlist here when you create
