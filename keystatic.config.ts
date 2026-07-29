@@ -198,6 +198,9 @@ export default config({
         // ── Body ──────────────────────────────────────────────────────────
         content: fields.mdx({
           label: 'Content',
+          options: {
+            image: figureImage('Markdown Image'),
+          },
           // Add your custom MDX component allowlist here when you create
           // components under src/components/mdx/:
           //
