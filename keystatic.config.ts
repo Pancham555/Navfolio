@@ -199,7 +199,10 @@ export default config({
         content: fields.mdx({
           label: 'Content',
           options: {
-            image: figureImage('Markdown Image'),
+            image: {
+              directory: 'src/assets/figure',
+              publicPath: '../../assets/figure/',
+            },
           },
           // Add your custom MDX component allowlist here when you create
           // components under src/components/mdx/:
